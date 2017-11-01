@@ -19,7 +19,7 @@ turtle.fd(distance) #short form
 ```
 For example, if you want to move the turtle forward 100 units, you would write `turtle.forward(100)`.
 
-<img src="images/forward_line.png" alt="Forward Line" width="133" height="40">
+![Forward Line](images/forward_line.png =133x40)
 
 ## Backwards
 Moving backwards from the direction it is facing uses the same principle.
@@ -53,8 +53,7 @@ turtle.seth(degrees)  #short form
 ## Relative vs. Absolute
 If the turtle is facing 180 degrees currently (left/west), and you were to move it 90 degrees left, it would now be facing down at 270 degrees. However, if you set its absolute heading to 90 degrees, it would now be facing up, regardless of where it started.
 
-<img src="images/directions.png" alt="Directions & Corresponding Degrees" width="250" height="250">
-
+![Directions & Corresponding Degrees](images/directions.png =250x250)
 
 # Testing it Out
 ___
@@ -64,4 +63,4 @@ Try making a square by repeativly moving forwards and turning the turtle at a ri
 
 The result should look something like this:
 
-<img src="images/basic_square.png" alt="Basic Square" width="140" height="135">
+![Basic Square](images/basic_square.png =146x135)

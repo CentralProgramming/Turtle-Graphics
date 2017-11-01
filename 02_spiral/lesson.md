@@ -30,7 +30,7 @@ for i in range(50): #50=num turns, can be any number
     turtle.right(36) #360/num of turns
 ```
 
-<img src="images/basic_spiral.png" alt="Basic Spiral" width="500" height="477">
+![Basic Spiral](images/base_spiral.png =500x477)
 
 
 # Increasing Width
@@ -47,7 +47,7 @@ for i in range(50):
     turtle.right(36)
 ```
 
-<img src="images/width_spiral.png" alt="Spiral with Changing Widths" width="500" height="477">
+![Spiral with Changing Widths](images/width_spiral.png =500x477)
 
 
 # Increasing Speed
@@ -99,7 +99,7 @@ for i in range(50):
     turtle.right(36)
 ```
 
-<img src="images/colour_spiral.png" alt="Colour Alternating Spiral" width="500" height="477">
+![Colour Alternating Spiral](images/colour_spiral.png =500x477)
 
 # Finshed Product
 
