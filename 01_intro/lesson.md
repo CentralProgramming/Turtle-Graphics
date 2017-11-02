@@ -6,10 +6,10 @@ Before we can get started, we'll have to import the turtle module.
 ```python
 import turtle
 ```
->If you'd like to use a short form, you can use `import turtle as t` and then write `t` instead of `turtle` in commands (`turtle.forwards(10)` would become `t.forwards(10)`)
+>If you'd like to use a short form, you can use `import turtle as t` and then write `t` instead of `turtle` in commands (`turtle.forward(10)` would become `t.forward(10)`)
+
 
 # Moving the Turtle
-___
 
 ## Forwards
 To move the turtle forwards in the direction it is facing, use:
@@ -17,7 +17,7 @@ To move the turtle forwards in the direction it is facing, use:
 turtle.forward(distance)
 turtle.fd(distance) #short form
 ```
-For example, if you want to move the turtle forward 100 units, you would write `turtle.forward(100)`.
+For example, if you want to move the turtle forwards 100 units, you would write `turtle.forward(100)`.
 
 <img src="images/forward_line.png" alt="Forward Line" width="133" height="40">
 
@@ -28,9 +28,9 @@ turtle.backward(distance)
 turtle.bk(distance) #short form
 ```
 
+
 # Rotating the Turtle
-___
-So the turtle can move forwards and backwards. That's great, but we can't really draw much with a line in only one direction. The turtle can either be rotated relative to its current heading (left or right), or set absolutly. The initial heading of the turtle is 0 (right)
+So the turtle can move forwards and backwards. That's great, but we can't really draw much with a line in only one direction. The turtle can either be rotated relative to its current heading (left or right), or set absolutely. The initial heading of the turtle is 0 (right)
 
 ## Rotate Left
 ```python
@@ -57,10 +57,9 @@ If the turtle is facing 180 degrees currently (left/west), and you were to move 
 
 
 # Testing it Out
-___
 Now that you know the basics, let's put it into practice.
 
-Try making a square by repeativly moving forwards and turning the turtle at a right angle. For a challenge, try making it in a loop, or creating a function that will create squares of different sizes.
+Try making a square by repeatedly moving forwards and turning the turtle at a right angle. For a challenge, try making it in a loop, or creating a function that will create squares of different sizes.
 
 The result should look something like this:
 
