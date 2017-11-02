@@ -34,6 +34,7 @@ for i in range(50): #50=num turns, can be any number
 
 
 # Increasing Width
+To add to the spiral effect, we can also make each turn thicker than the last. The width of a line can be increased with `turtle.pensize(size)` or `turtle.width(size)`.
 
 ```python
 import turtle
@@ -51,6 +52,7 @@ for i in range(50):
 
 
 # Increasing Speed
+Another thing we can do is make the speed in which the spiral is drawn increase. Speed can be any integer from 0-10, with 1 being the lowest, 10 the second highest, and 0 the highest. In this example, the spiral is made in 50 loops, and so by increasing the speed by 1 every 5 loops, we can get a steady increase in speed.
 
 ```python
 import turtle
@@ -74,7 +76,14 @@ for i in range(50):
 
 
 # Alternate Colours
+The last step is to add some colour! Pick a bunch of colours you'd like to use (you can see a list of colour names [here](https://www.tcl.tk/man/tcl8.4/TkCmd/colors.htm)) and put them in a list. You can then alternate beween those colours by setting the line colour to the index of that list that is equal to `i % length of list`.
 
+## Lists
+Python lists are very similar to arrays in most other languages. Lists hold multiple values, all seperated by a comma, placed between square brackets.
+
+For example, a list of subjects would look like this: `subjects = ["english", "art", "math", "science", "history"]`. To access an item in the list, you have to refrence its *index*, which is an integer starting at 0. If you wanted to print `art`, you could do so like this: `print(subjects[1]).`
+
+## Code
 ```python
 import turtle
 
@@ -99,7 +108,8 @@ for i in range(50):
     turtle.right(36)
 ```
 
-<img src="images/colour_spiral.png" alt="Colour Alternating Spiral" width="500" height="477">
+![Python_Turtle_Graphics.png](quiver-image-url/741EE8FE2F48842059140CF28E7EB820.png =720x697)
+
 
 
 # Finshed Product
